@@ -85,3 +85,12 @@ ul {
   font-size: 1.7rem;
   color: var(--heading-color);
 }
+
+.Subtitle {
+  font-family: 'Cursive', sans-serif;
+  color: black;
+  background-color: orange;
+  padding: 10px;
+  border-radius: 25px;
+  display: inline-block;
+}
