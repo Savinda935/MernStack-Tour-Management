@@ -7,7 +7,9 @@ import heroImg02 from '../assets/images/hero-img02.jpg'
 import heroVideo from '../assets/images/hero-video.mp4'
 import worldImg from '../assets/images/world.png'
 import Subtitle from '../shared/Subtitle';
+
 import SearchBar from "../shared/SearchBar";
+import ServiceList from "../services/ServiceList";
 
 const Home = () => {
   return <>
@@ -56,8 +58,8 @@ Experiential Experiences Engage in local traditions. Participate in workshops, c
                 <h5 className="services_subtitle">What we serve</h5>
                 <h2 className="services_title">We offer our best services</h2>
                 </Col>
+                <ServiceList/>
             </Row>
-
         </Container>
     </section>
   </>
